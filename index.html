@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kilian · Étudiant ingénieur, Statistique &amp; Data Science</title>
+  <meta name="description" content="Portfolio de Kilian, étudiant ingénieur en statistique et data science à l'ENSAI.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="#top" class="logo">Kilian<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#profil" data-fr="Profil" data-en="Profile">Profil</a></li>
+        <li><a href="#formation" data-fr="Formation" data-en="Education">Formation</a></li>
+        <li><a href="#experience" data-fr="Expérience" data-en="Experience">Expérience</a></li>
+        <li><a href="#projets" data-fr="Projets" data-en="Projects">Projets</a></li>
+        <li><a href="#competences" data-fr="Compétences" data-en="Skills">Compétences</a></li>
+        <li><a href="#contact" data-fr="Contact" data-en="Contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="fr">FR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <a class="nav-cta" href="CV_Kilian.pdf" target="_blank" data-fr="CV ↗" data-en="Resume ↗">CV ↗</a>
+        <button class="nav-toggle" id="navToggle">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow" data-fr="Étudiant ingénieur · Statistique &amp; Data Science"
+          data-en="Engineering student · Statistics &amp; Data Science">Étudiant ingénieur · Statistique &amp; Data
+          Science</p>
+        <h1>Kilian</h1>
+        <p class="role"
+          data-fr="2ᵉ année à l'ENSAI (Rennes), à la croisée de la statistique, de la donnée et de l'IA appliquée. Je recherche un stage en data pour 2027."
+          data-en="2nd year student at ENSAI (Rennes), at the crossroads of statistics, data and applied AI. Looking for a data internship for 2027.">
+          2ᵉ année à l'ENSAI (Rennes), à la croisée de la statistique, de la donnée
+          et de l'IA appliquée. Je recherche un stage en data pour 2027.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="CV_Kilian.pdf" target="_blank" data-fr="Télécharger mon CV"
+            data-en="Download my CV">Télécharger mon CV</a>
+          <a class="btn btn-ghost" href="#contact" data-fr="Me contacter" data-en="Contact me">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-graph">
+        <svg viewBox="0 0 700 220" preserveAspectRatio="none">
+          <line x1="442.6" y1="22.6" x2="449.5" y2="118.3" stroke="var(--blue)" stroke-width="1.05" opacity="0.35" />
+          <line x1="442.6" y1="22.6" x2="555.5" y2="19.2" stroke="var(--blue)" stroke-width="0.87" opacity="0.28" />
+          <line x1="442.6" y1="22.6" x2="485.8" y2="26.4" stroke="var(--blue)" stroke-width="1.6" opacity="0.56" />
+          <line x1="442.6" y1="22.6" x2="440.1" y2="85.1" stroke="var(--blue)" stroke-width="1.4" opacity="0.49" />
+          <line x1="200.6" y1="59.1" x2="243.9" y2="46.6" stroke="var(--blue)" stroke-width="1.59" opacity="0.56" />
+          <line x1="200.6" y1="59.1" x2="269.3" y2="119.6" stroke="var(--blue)" stroke-width="1.09" opacity="0.37" />
+          <line x1="200.6" y1="59.1" x2="170.1" y2="23.9" stroke="var(--blue)" stroke-width="1.57" opacity="0.55" />
+          <line x1="507.0" y1="142.5" x2="449.5" y2="118.3" stroke="var(--blue)" stroke-width="1.4" opacity="0.49" />
+          <line x1="507.0" y1="142.5" x2="553.1" y2="146.5" stroke="var(--blue)" stroke-width="1.57" opacity="0.55" />
+          <line x1="610.4" y1="34.0" x2="555.5" y2="19.2" stroke="var(--blue)" stroke-width="1.46" opacity="0.51" />
+          <line x1="610.4" y1="34.0" x2="653.6" y2="79.9" stroke="var(--blue)" stroke-width="1.4" opacity="0.48" />
+          <line x1="610.4" y1="34.0" x2="675.0" y2="135.8" stroke="var(--blue)" stroke-width="0.78" opacity="0.25" />
+          <line x1="298.2" y1="23.5" x2="243.9" y2="46.6" stroke="var(--blue)" stroke-width="1.44" opacity="0.5" />
+          <line x1="298.2" y1="23.5" x2="269.3" y2="119.6" stroke="var(--blue)" stroke-width="1.0" opacity="0.33" />
+          <line x1="163.2" y1="111.0" x2="195.3" y2="190.3" stroke="var(--blue)" stroke-width="1.16" opacity="0.39" />
+          <line x1="163.2" y1="111.0" x2="131.6" y2="152.2" stroke="var(--blue)" stroke-width="1.51" opacity="0.53" />
+          <line x1="163.2" y1="111.0" x2="126.5" y2="87.8" stroke="var(--blue)" stroke-width="1.61" opacity="0.56" />
+          <line x1="35.6" y1="54.6" x2="79.6" y2="35.8" stroke="var(--blue)" stroke-width="1.56" opacity="0.55" />
+          <line x1="35.6" y1="54.6" x2="131.6" y2="152.2" stroke="var(--blue)" stroke-width="0.61" opacity="0.18" />
+          <line x1="35.6" y1="54.6" x2="126.5" y2="87.8" stroke="var(--blue)" stroke-width="1.04" opacity="0.35" />
+          <line x1="35.6" y1="54.6" x2="170.1" y2="23.9" stroke="var(--blue)" stroke-width="0.6" opacity="0.18" />
+          <line x1="449.5" y1="118.3" x2="374.1" y2="197.1" stroke="var(--blue)" stroke-width="0.91" opacity="0.3" />
+          <line x1="449.5" y1="118.3" x2="440.1" y2="85.1" stroke="var(--blue)" stroke-width="1.7" opacity="0.6" />
+          <line x1="449.5" y1="118.3" x2="387.8" y2="144.0" stroke="var(--blue)" stroke-width="1.36" opacity="0.47" />
+          <line x1="555.5" y1="19.2" x2="485.8" y2="26.4" stroke="var(--blue)" stroke-width="1.32" opacity="0.46" />
+          <line x1="553.1" y1="146.5" x2="590.2" y2="124.2" stroke="var(--blue)" stroke-width="1.61" opacity="0.56" />
+          <line x1="553.1" y1="146.5" x2="675.0" y2="135.8" stroke="var(--blue)" stroke-width="0.76" opacity="0.24" />
+          <line x1="243.9" y1="46.6" x2="269.3" y2="119.6" stroke="var(--blue)" stroke-width="1.24" opacity="0.43" />
+          <line x1="243.9" y1="46.6" x2="170.1" y2="23.9" stroke="var(--blue)" stroke-width="1.25" opacity="0.43" />
+          <line x1="653.6" y1="79.9" x2="590.2" y2="124.2" stroke="var(--blue)" stroke-width="1.24" opacity="0.43" />
+          <line x1="653.6" y1="79.9" x2="675.0" y2="135.8" stroke="var(--blue)" stroke-width="1.43" opacity="0.5" />
+          <line x1="79.6" y1="35.8" x2="126.5" y2="87.8" stroke="var(--blue)" stroke-width="1.32" opacity="0.46" />
+          <line x1="374.1" y1="197.1" x2="387.8" y2="144.0" stroke="var(--blue)" stroke-width="1.48" opacity="0.52" />
+          <line x1="590.2" y1="124.2" x2="675.0" y2="135.8" stroke="var(--blue)" stroke-width="1.16" opacity="0.39" />
+          <line x1="195.3" y1="190.3" x2="131.6" y2="152.2" stroke="var(--blue)" stroke-width="1.28" opacity="0.44" />
+          <line x1="131.6" y1="152.2" x2="126.5" y2="87.8" stroke="var(--blue)" stroke-width="1.38" opacity="0.48" />
+
+          <circle cx="442.6" cy="22.6" r="4.9" fill="var(--blue)" opacity="0.82" />
+          <circle cx="200.6" cy="59.1" r="3.7" fill="var(--blue)" opacity="0.68" />
+          <circle cx="507.0" cy="142.5" r="2.6" fill="var(--blue)" opacity="0.55" />
+          <circle cx="610.4" cy="34.0" r="3.7" fill="var(--blue)" opacity="0.68" />
+          <circle cx="298.2" cy="23.5" r="2.6" fill="var(--blue)" opacity="0.55" />
+          <circle cx="163.2" cy="111.0" r="3.7" fill="var(--blue)" opacity="0.68" />
+          <circle cx="35.6" cy="54.6" r="4.9" fill="var(--blue)" opacity="0.82" />
+          <circle cx="449.5" cy="118.3" r="6.0" fill="var(--blue)" opacity="0.95" />
+          <circle cx="555.5" cy="19.2" r="3.7" fill="var(--blue)" opacity="0.68" />
+          <circle cx="553.1" cy="146.5" r="3.7" fill="var(--blue)" opacity="0.68" />
+          <circle cx="243.9" cy="46.6" r="4.9" fill="var(--blue)" opacity="0.82" />
+          <circle cx="653.6" cy="79.9" r="3.7" fill="var(--blue)" opacity="0.68" />
+          <circle cx="79.6" cy="35.8" r="2.6" fill="var(--blue)" opacity="0.55" />
+          <circle cx="374.1" cy="197.1" r="2.6" fill="var(--blue)" opacity="0.55" />
+          <circle cx="269.3" cy="119.6" r="3.7" fill="var(--blue)" opacity="0.68" />
+          <circle cx="590.2" cy="124.2" r="3.7" fill="var(--blue)" opacity="0.68" />
+          <circle cx="485.8" cy="26.4" r="2.6" fill="var(--blue)" opacity="0.55" />
+          <circle cx="440.1" cy="85.1" r="2.6" fill="var(--blue)" opacity="0.55" />
+          <circle cx="195.3" cy="190.3" r="2.6" fill="var(--blue)" opacity="0.55" />
+          <circle cx="131.6" cy="152.2" r="4.9" fill="var(--blue)" opacity="0.82" />
+          <circle cx="126.5" cy="87.8" r="4.9" fill="var(--blue)" opacity="0.82" />
+          <circle cx="675.0" cy="135.8" r="4.9" fill="var(--blue)" opacity="0.82" />
+          <circle cx="387.8" cy="144.0" r="2.6" fill="var(--blue)" opacity="0.55" />
+          <circle cx="170.1" cy="23.9" r="3.7" fill="var(--blue)" opacity="0.68" />
+        </svg>
+        <p class="caption" data-fr="Représentation d'un graphe — clin d'œil aux algorithmes de clustering"
+          data-en="Graph representation — a nod to clustering algorithms">Représentation d'un graphe — clin d'œil aux
+          algorithmes de clustering</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="profil">
+    <div class="wrap">
+      <div class="stats">
+        <div class="stat">
+          <div class="num">2A</div>
+          <div class="label" data-fr="ENSAI · STAT &amp; DATA SCIENCE" data-en="ENSAI · STATS &amp; DATA SCIENCE">ENSAI
+            · STAT &amp; DATA SCIENCE</div>
+        </div>
+        <div class="stat">
+          <div class="num">2</div>
+          <div class="label" data-fr="DOUBLES CURSUS EN PARALLÈLE" data-en="PARALLEL DEGREE PROGRAMS">DOUBLES CURSUS EN
+            PARALLÈLE</div>
+        </div>
+        <div class="stat">
+          <div class="num">3</div>
+          <div class="label" data-fr="PROJETS DATA / IA MENÉS" data-en="DATA / AI PROJECTS DELIVERED">PROJETS DATA / IA
+            MENÉS</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="formation">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-fr="Éducation" data-en="Education">Éducation</p>
+        <h2 data-fr="Formation" data-en="Academic Background">Formation</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-date" data-fr="2027 – 2028" data-en="2027 – 2028">2027 – 2028</div>
+          <div>
+            <h3 data-fr="Projet de Double Diplôme (3A)" data-en="Planned Dual Degree (3rd Year)">Projet de Double
+              Diplôme (3A)</h3>
+            <div class="tl-org-chip">
+              <span class="org-logo"><img src="logos/imperial.svg" alt="Imperial College London"></span>
+              <span class="org-label">Imperial College London</span>
+            </div>
+            <p class="tl-desc" data-fr="En préparation pour la 3e année du cycle ingénieur."
+              data-en="In preparation for the 3rd year of the engineering cycle.">
+              En préparation pour la 3e année du cycle ingénieur.
+            </p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date" data-fr="2026 – 2027" data-en="2026 – 2027">2026 – 2027</div>
+          <div>
+            <h3 data-fr="Licence d'économie appliquée, parcours Grandes Écoles (L3)"
+              data-en="Bachelor's in Applied Economics, Grandes Écoles track (L3)">Licence d'économie appliquée,
+              parcours Grandes Écoles (L3)</h3>
+            <div class="tl-org-chip">
+              <span class="org-logo"><img src="logos/dauphine.svg" alt="Paris-Dauphine"></span>
+              <span class="org-label">Université Paris Dauphine-PSL</span>
+            </div>
+            <p class="tl-desc" data-fr="En parallèle de la 2e année du cycle ingénieur."
+              data-en="Pursued alongside the 2nd year of the engineering cycle.">
+              En parallèle de la 2e année du cycle ingénieur.
+            </p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date" data-fr="2025 – 2028" data-en="2025 – 2028">2025 – 2028</div>
+          <div>
+            <h3 data-fr="Cycle Ingénieur - Statistique et Data Science"
+              data-en="Engineering Degree - Statistics and Data Science">Cycle Ingénieur - Statistique et Data Science
+            </h3>
+            <div class="tl-org-chip">
+              <span class="org-logo"><img src="logos/ensai.svg" alt="ENSAI"></span>
+              <span class="org-label">ENSAI - École Nationale de la Statistique et de l'Analyse de l'Information,
+                Rennes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date" data-fr="2025 – 2026" data-en="2025 – 2026">2025 – 2026</div>
+          <div>
+            <h3 data-fr="Licence de mathématiques, parcours Mathématiques et Interactions (L3)"
+              data-en="Bachelor's in Mathematics, Mathematics and Interactions track (L3)">Licence de mathématiques,
+              parcours Mathématiques et Interactions (L3)</h3>
+            <div class="tl-org-chip">
+              <span class="org-logo"><img src="logos/universite-rennes.svg" alt="Université de Rennes"></span>
+              <span class="org-label">Université de Rennes</span>
+            </div>
+            <p class="tl-desc" data-fr="En parallèle de la 1re année du cycle ingénieur."
+              data-en="Pursued alongside the 1st year of the engineering cycle.">
+              En parallèle de la 1re année du cycle ingénieur.
+            </p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date" data-fr="2023 – 2025" data-en="2023 – 2025">2023 – 2025</div>
+          <div>
+            <h3 data-fr="Classe Préparatoire aux Grandes Écoles (PSI)" data-en="Preparatory Classes (PSI)">Classe
+              Préparatoire aux Grandes Écoles (PSI)</h3>
+            <div class="tl-org-chip">
+              <span class="org-logo"><img src="logos/henri-poincare.svg" alt="Lycée Henri Poincaré"></span>
+              <span class="org-label">Lycée Henri Poincaré, Nancy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="experience">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-fr="Parcours" data-en="Background">Parcours</p>
+        <h2 data-fr="Expérience" data-en="Experience">Expérience</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-date" data-fr="En cours" data-en="Ongoing">En cours</div>
+          <div>
+            <h3 data-fr="Vice-Trésorier" data-en="Vice-Treasurer">Vice-Trésorier</h3>
+            <div class="tl-org-chip">
+              <span class="org-logo"><img src="logos/ejc.svg" alt="EJC"></span>
+              <span class="org-label">ENSAI Junior Consultant (EJC)</span>
+            </div>
+            <p class="tl-desc"
+              data-fr="Junior-entreprise de l'école. En parallèle, conception d'un outil interne de génération d'avant-projets (voir projets ci-dessous)."
+              data-en="The school's junior enterprise. Alongside this role, I built an internal tool that generates project proposals (see projects below).">
+              Junior-entreprise de l'école. En parallèle, conception d'un outil interne
+              de génération d'avant-projets (voir projets ci-dessous).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projets">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-fr="Travaux" data-en="Work">Travaux</p>
+        <h2 data-fr="Projets" data-en="Projects">Projets</h2>
+      </div>
+      <div class="projects">
+
+        <div class="project-card">
+          <h3 data-fr="Générateur d'avant-projets, EJC" data-en="Project proposal generator, EJC">Générateur
+            d'avant-projets, EJC</h3>
+          <p data-fr="Application Streamlit pilotée par RAG (LangChain) sur l'API Gemini, avec sorties structurées via Pydantic, authentification Google OAuth et export Word automatisé avec docxtpl."
+            data-en="A Streamlit app powered by RAG (LangChain) on the Gemini API, with Pydantic structured outputs, Google OAuth login and automated Word export via docxtpl.">
+            Application Streamlit pilotée par RAG (LangChain) sur l'API Gemini,
+            avec sorties structurées via Pydantic, authentification Google OAuth
+            et export Word automatisé avec docxtpl.
+          </p>
+          <div class="tags">
+            <span class="tag">RAG</span><span class="tag">LangChain</span>
+            <span class="tag">Streamlit</span><span class="tag">Gemini API</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 data-fr="Analyse PISA 2022" data-en="PISA 2022 analysis">Analyse PISA 2022</h3>
+          <p data-fr="Projet de groupe ENSAI : ACP et classification hiérarchique (HCPC) pour dégager quatre profils d'élèves, en contrôlant l'origine sociale et le genre."
+            data-en="ENSAI group project: PCA and hierarchical clustering (HCA) to identify four student profiles, controlling for socioeconomic background and gender.">
+            Projet de groupe ENSAI : ACP et classification hiérarchique (HCPC) pour
+            dégager quatre profils d'élèves, en contrôlant l'origine sociale et le genre.
+          </p>
+          <div class="tags">
+            <span class="tag" data-fr="Statistique" data-en="Statistics">Statistique</span>
+            <span class="tag" data-fr="ACP" data-en="PCA">ACP</span>
+            <span class="tag" data-fr="Clustering" data-en="Clustering">Clustering</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 data-fr="Données sportives, Ministère des Sports" data-en="Sports data, Ministry of Sports">Données
+            sportives, Ministère des Sports</h3>
+          <p data-fr="Application de traitement de données sportives dans le contexte de Paris 2024, restituée à l'oral sous forme de récit interactif."
+            data-en="A sports data processing application built around the Paris 2024 context, presented orally as an interactive narrative.">
+            Application de traitement de données sportives dans le contexte de Paris 2024,
+            restituée à l'oral sous forme de récit interactif.
+          </p>
+          <div class="tags">
+            <span class="tag" data-fr="Traitement de données" data-en="Data processing">Traitement de données</span>
+            <span class="tag" data-fr="Restitution" data-en="Storytelling">Restitution</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="competences">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-fr="Compétences" data-en="Skills">Compétences</p>
+        <h2 data-fr="Langues" data-en="Languages">Langues</h2>
+      </div>
+      <div class="lang-block">
+        <ul class="skill-list">
+          <li><span class="k" data-fr="Français" data-en="French">Français</span><span class="v" data-fr="natif"
+              data-en="native">natif</span></li>
+          <li><span class="k" data-fr="Anglais" data-en="English">Anglais</span><span class="v">C1 Cambridge · TOEIC
+              980/990</span></li>
+          <li><span class="k" data-fr="Allemand" data-en="German">Allemand</span><span class="v" data-fr="intermédiaire"
+              data-en="intermediate">intermédiaire</span></li>
+          <li><span class="k" data-fr="Chinois" data-en="Chinese">Chinois</span><span class="v" data-fr="notions"
+              data-en="basic notions">notions</span></li>
+          <li><span class="k" data-fr="Permis B" data-en="Driver's license (B)">Permis B</span><span class="v"
+              data-fr="véhicule personnel" data-en="own vehicle">véhicule personnel</span></li>
+        </ul>
+        <div class="positioning"
+          data-fr="Je construis un profil généraliste à la croisée de la statistique, de la technologie et de l'économie."
+          data-en="I'm building a generalist profile at the crossroads of statistics, technology and economics.">
+          Je construis un profil généraliste à la croisée de la statistique,
+          de la technologie et de l'économie.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact-box">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 data-fr="Discutons d'un stage data" data-en="Let's talk about a data internship">Discutons d'un stage data
+          </h2>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:kilian@crumbach.fr">✉ kilian@crumbach.fr</a>
+          <a href="https://www.linkedin.com/in/kilian-crumbach/" target="_blank">↗ LinkedIn</a>
+          <a href="https://github.com/Kilian-c" target="_blank">↗ GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <span>© 2026 Kilian</span>
+    <span data-fr="Dernière mise à jour · juillet 2026" data-en="Last updated · July 2026">Dernière mise à jour ·
+      juillet 2026</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
